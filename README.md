@@ -1,6 +1,5 @@
 # ViveMedellin-f4
 
-Proyecto base en Spring Boot para CommunityApp.
 
 ## Dependencias principales
 - Spring Web
@@ -8,25 +7,14 @@ Proyecto base en Spring Boot para CommunityApp.
 - H2 Database
 - Lombok
 
-## Estructura de paquetes
-- com.communityapp.auth.controller
-- com.communityapp.auth.service
-- com.communityapp.auth.config
-- com.communityapp.group.controller
-- com.communityapp.group.service
-- com.communityapp.group.model
-- com.communityapp.common
 
 
-## Endpoints
-- POST /api/groups/create
 
-## 🚀 Cómo ejecutar
+##  Cómo ejecutar
 
 ### Requisitos
 - JDK 17 o superior
 - Maven 3.6+
-
 
 
 **Para ejecutar**
