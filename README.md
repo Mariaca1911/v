@@ -8,8 +8,6 @@
 - Lombok
 
 
-
-
 ##  Cómo ejecutar
 
 ### Requisitos
@@ -23,12 +21,11 @@ mvn spring-boot:run
 
 **Aplicación disponible en:** http://localhost:8080
 
-
 ##  Credenciales de acceso
 - **Usuario:** `user`
 - **Contraseña:** `password`
 
-## Probar login
+## Probar login HU01
 
 $body = '{"username":"user","password":"password"}'
 $response = Invoke-WebRequest -Uri "http://localhost:8080/api/auth/login" -Method POST -Body $body -ContentType "application/json"
